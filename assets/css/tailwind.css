@@ -1,0 +1,66 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Medium.eot');
+    src: local('Lato Medium'), local('Lato-Medium'),
+        url('../fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Medium.woff') format('woff'),
+        url('../fonts/Lato-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.eot');
+    src: local('Lato Bold'), local('Lato-Bold'),
+        url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Bold.woff') format('woff'),
+        url('../fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stolzl';
+    src: url('../fonts/Stolzl-Regular.eot');
+    src: local('Stolzl Regular'), local('Stolzl-Regular'),
+        url('../fonts/Stolzl-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Stolzl-Regular.woff2') format('woff2'),
+        url('../fonts/Stolzl-Regular.woff') format('woff'),
+        url('../fonts/Stolzl-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+    display: inline-block !important;
+    border-radius: 100% !important;
+    border: 1px solid rgb(137, 189, 248) !important;
+    background: rgb(228, 241, 255) !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet+.swiper-pagination-bullet{
+    margin: 0 0 0 20px !important;
+}
+
+.swiper-pagination-bullet-active {
+    border: none !important;
+    background: #1F83F8 !important;
+}
