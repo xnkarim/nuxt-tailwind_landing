@@ -26,7 +26,7 @@ export default {
       default: "",
     },
     value: {
-      type: String || Number,
+      type: [String, Number],
       default: "",
     },
     type: {
