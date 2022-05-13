@@ -26,6 +26,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '@/plugins/swiper', mode: 'client' },
+    '@/plugins/test',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -36,7 +37,7 @@ export default {
     '@nuxtjs/moment',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    // TODO: Remove this function when tailwindcss-module adds support to v3 
+    // TODO: Remove this function when tailwindcss-module adds support to v3
     function () {
       this.nuxt.hook('tailwindcss:config', (config) => {
         // Move the legacy purge content array to the the new property
