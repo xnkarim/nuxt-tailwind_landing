@@ -2,6 +2,10 @@
 
 [link to github pages](https://xnkarim.github.io/nuxt-tailwind_landing/) 
 
+## How projects looks
+
+![site screen](./static/images/site-screen.png?raw=true "How project looks")
+
 ## Build Setup
 
 ```bash

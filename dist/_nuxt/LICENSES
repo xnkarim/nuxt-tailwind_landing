@@ -23,9 +23,6 @@
  */
 
 
-//! moment.js locale configuration
-
-
 /*!
  * vue-awesome-swiper v4.1.1
  * Copyright (c) Surmon. All rights reserved.
@@ -61,3 +58,6 @@ and limitations under the License.
 ***************************************************************************** */
 
 //! moment.js
+
+
+//! moment.js locale configuration
