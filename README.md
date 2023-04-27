@@ -1,4 +1,6 @@
-# credit
+# My credit
+
+[link to github pages](https://xnkarim.github.io/nuxt-tailwind_landing/) 
 
 ## Build Setup
 

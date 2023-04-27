@@ -1,4 +1,8 @@
 export default {
+  target: 'static',
+  router: {
+    base: '/nuxt-tailwind_landing/'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Кредит',
@@ -36,7 +40,7 @@ export default {
     '@nuxtjs/moment',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    // TODO: Remove this function when tailwindcss-module adds support to v3 
+    // TODO: Remove this function when tailwindcss-module adds support to v3
     function () {
       this.nuxt.hook('tailwindcss:config', (config) => {
         // Move the legacy purge content array to the the new property
